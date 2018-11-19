@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block mycontent %}
+<h1>employe</h1>
+{% for employe in myEmployeList %}
+
+<ul>
+    <li> {{ employe.Name }}</li>
+    <li> {{ employe.employe }}</li>
+</ul>
+
+{% endfor %}
+{% endblock %}
